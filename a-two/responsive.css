@@ -1,0 +1,153 @@
+@media only screen and (max-width: 576px) {
+
+   /* hero section responsive */
+
+  .banner{
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+   .nav-links{
+    display: none;
+   }
+
+   .navbar{
+      display: flex;
+      justify-content: space-around;
+   }
+   .banner{
+      display: block;
+   }
+  .banner-title{
+   font-size: 40px;
+   width: 310px;
+  }
+
+  .banner-description{
+   width: 80%;
+  }
+
+  .banner-content>button{
+   max-width: 352px;
+  }
+
+  #tutorial-video{
+   position: absolute;
+   right: 300px;
+   top: 410px;
+  }
+
+  #workout-video{
+   position: absolute;
+   right: 0px;
+   top: 110px;
+  }
+
+  .settingButton{
+   display: block;
+  }
+
+/* habit section responsive */
+
+  .habit{
+   display: block;
+   margin-top: 20px;
+  }
+
+  .habit-content{
+   margin-top: 20px;
+  }
+
+  /* run section responsive */
+
+  .run{
+   display: block;
+   padding-top: 1px;
+   padding-bottom: 40px;
+  }
+
+  .run-tiite{
+   font-size: 40px;
+  }
+
+  .run-content{
+   align-items: center;
+   max-width: 287px;
+   /* padding-left:100px ; */
+  }
+
+  .run-img{
+   width: 100%;
+  }
+
+  /* BMI section responsive */
+
+  .bmi-bg{
+   margin-top:32px ;
+  }
+
+  .BMI{
+   text-align: start;
+   max-width: 400px;
+   padding-left: 50px;
+  }
+
+  .bmi_child{
+   display: block;
+   width: 100%;
+  }
+
+  .table{
+   max-width: 353px;
+   max-height: 216px;
+   padding-left: 45px;
+   padding-bottom:42px ;
+  }
+
+  .form1{
+   max-width: 354px;
+   max-height: 395px;
+   padding-left: 45px;
+   padding-top: 42px;
+   padding-bottom: 43px;
+  }
+
+  .sex{
+   width: 95%;
+  }
+
+  .activity{
+   max-width: 346px;
+  }
+  
+
+  /* team section responsive */
+
+  .team-img-container{
+   display: block;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+
+  .team-img-container>img{
+   width: 100%;
+  }
+
+
+  /* footer section responsive */
+
+  .footer-parent{
+   display: block;
+   padding-left: 45px;
+  }
+
+  .footer-brand{
+   max-width: 317px;
+   margin-top:44px ;
+  }
+
+  hr{
+   max-width: 400px;
+   margin-top: 72px;
+  }
+
+  }
